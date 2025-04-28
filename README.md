@@ -1,38 +1,12 @@
-# 🎬 Movie Finder - Search Your Favorite Movies Instantly!
+# React + Vite
 
-Welcome to **Movie Finder**, your one-stop solution for finding movies from multiple sources across the internet!
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 About the Project
+Currently, two official plugins are available:
 
-Finding movies online is frustrating — tons of ads, multiple websites, and endless searching.  
-**Movie Finder** solves this problem by providing a single platform where you can:
-- 🔎 Search any movie by name.
-- 🌐 Get instant links from different sources (YouTube, other websites, Telegram, etc.).
-- ⚡ Fast, simple, and ad-free movie search experience!
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Whether you want to watch a trailer, find streaming options, or download movies, **Movie Finder** saves your time and energy!
+## Expanding the ESLint configuration
 
----
-
-## 🛠️ Built With
-
-- **React.js** (Frontend Framework)
-- **Fetch** (for API requests)
-- **Movie Database API** (or your custom source)
-- **Tailwind CSS** (for styling)
-
----
-
-## 📸 Screenshots
-
-| Home Page | Search Results |
-|:---------:|:--------------:|
-| ![Home](./screenshots/home.png) | ![Results](./screenshots/results.png) |
-
----
-
-## 🚀 How to Run Locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/movie-finder.git
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
